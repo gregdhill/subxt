@@ -28,8 +28,8 @@ thiserror = "1.0.24"
 
 subxt-macro = { version = "0.20.0", path = "../macro" }
 
-sp-core = { git = "https://github.com/paritytech/substrate", branch = "polkadot-v0.9.19", default-features = false  }
-sp-runtime = { git = "https://github.com/paritytech/substrate", branch = "polkadot-v0.9.19" }
+sp-core = { git = "https://github.com/paritytech/substrate", branch = "polkadot-v0.9.24", default-features = false  }
+sp-runtime = { git = "https://github.com/paritytech/substrate", branch = "polkadot-v0.9.24" }
 
 frame-metadata = "15.0.0"
 derivative = "2.2.0"
@@ -43,4 +43,4 @@ tempdir = "0.3.7"
 wabt = "0.10.0"
 which = "4.0.2"
 test-runtime = { path = "../test-runtime" }
-sp-keyring = { git = "https://github.com/paritytech/substrate", branch = "polkadot-v0.9.19" }
+sp-keyring = { git = "https://github.com/paritytech/substrate", branch = "polkadot-v0.9.24" }
